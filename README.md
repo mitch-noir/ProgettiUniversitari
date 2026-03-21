@@ -1,6 +1,6 @@
 # 🎓 Progetti Universitari
 
-Questa repository raccoglie i principali progetti accademici sviluppati durante il mio percorso di studi presso l' **Università di Pisa** . Ogni progetto riflette le competenze acquisite in ambiti diversi dell'informatica, dal design di basi di dati alla programmazione di rete.
+Questa repository raccoglie i principali progetti accademici sviluppati durante il mio percorso di studi presso l' **Università di Pisa**. Ogni progetto riflette le competenze acquisite in ambiti diversi dell'informatica, dal design di basi di dati alla programmazione di rete.
 
 ### 📁 Struttura della Repository
 <!--
