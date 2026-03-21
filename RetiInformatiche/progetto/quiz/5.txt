@@ -1,0 +1,8 @@
+Tema: "Cinema"
+
+- Chi ha diretto il film "La Dolce Vita"? Federico Fellini;
+- Quale film italiano ha vinto l’Oscar come miglior film straniero nel 1999? La vita è bella;
+- Qual è il famoso attore protagonista di "Il Padrino"? Marlon Brando;
+- Chi ha interpretato James Bond in "Skyfall"? Daniel Craig;
+- In quale città si tiene ogni anno la Mostra del Cinema? Venezia;
+_

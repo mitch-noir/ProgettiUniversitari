@@ -1,0 +1,9 @@
+Tema: "Spazio"
+
+- Chi è stato il primo uomo a camminare sulla Luna? Neil Armstrong;
+- Qual è il pianeta più grande del sistema solare? Giove;
+- Come si chiama il telescopio spaziale lanciato nel 1990? Hubble;
+- Qual è il nome dell’agenzia spaziale europea? ESA;
+- In che anno è stato lanciato il primo satellite artificiale, lo Sputnik? 1957;
+_
+
