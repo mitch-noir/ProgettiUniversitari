@@ -21,6 +21,6 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
   * **Dettagli implementativi**
 
     * Linguaggio: **C** (Standard POSIX).
-    * Gestione Concorrenza: Server multi-thread mediante libreria  **`pthread`** .
-    * Comunicazione: Protocollo di rete custom su  **Socket TCP/IP** .
+    * Gestione Concorrenza: Server multi-thread mediante libreria  **`pthread`**.
+    * Comunicazione: Protocollo di rete custom su  **Socket TCP/IP**.
   * **Logica:** Server multi-thread per la gestione di più client simultanei, classifica in tempo reale e storico punteggi.
