@@ -1,0 +1,322 @@
+html {
+    font-family: 'gantariregular';
+}
+
+header.general-header #artworks {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-align: right;
+    transition: color 0.5s cubic-bezier(0.3, 0.96, 0.76, 1.01);
+}
+
+header.general-header #artworks:hover {
+    color: #d56969;
+}
+
+main {
+    position: relative;
+    margin: 12rem auto 0 auto;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 0;
+}
+
+footer {
+    margin: 1rem auto 0 auto;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+}
+
+li > * {
+    display: inline-block;
+    align-items: center; /* Ensures all child elements align to the center vertically */
+}
+
+li > p:first-child {
+    flex: 1;
+}
+li > p:not(:first-child) {
+    flex: 3;
+}
+
+.profile-info {
+    border-bottom: 2px solid white;
+}
+
+.profile-info .artist-name {
+    display: flex;
+}
+
+.profile-info .artist-name p:first-child {
+    line-height: 3rem; /* Matches the input's height for perfect alignment */
+}
+
+.profile-info .artist-name p:not(:first-child) {
+    line-height: 3rem;
+}
+
+input {
+    font-family: 'gantariregular';
+    letter-spacing: .15rem;
+    cursor: pointer;
+}
+
+.profile-info .artist-name input {
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: inherit;
+    height: 3rem;
+    display: inline-block;
+    width: 95%;
+    font-size: 1.6rem; /* Ensure font sizes match for better visual consistency */
+    box-sizing: border-box;
+    vertical-align: middle; /* Aligns the input with the text */
+}
+button {
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+}
+div#upload {
+    margin: 1rem 0;
+    min-height: 50rem;
+}
+
+button#update {
+    display: block;
+    margin: 0 1rem 2rem auto;
+    padding: 0.5rem 1.5rem;
+    line-height: 2;
+    border-radius: .5rem;
+    
+    font-size: 1.5rem;
+    font-family: 'gantariregular';
+    font-weight: bold;
+}
+
+.logout {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    box-sizing: border-box;
+}
+
+.logout button {
+    width: 8rem;
+    line-height: 1.6;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-family: 'gantariregular';
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+}
+
+button:active {
+    background-color: #d56969;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > button {
+    margin: 1rem auto;
+    width: 20rem;
+    line-height: 2;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-family: 'gantariregular';
+    font-weight: bold;
+}
+
+.drop-container {
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    height: 25rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.drop-container:hover {
+    background: #eee;
+    border-color: #111;
+}
+
+.drop-container:hover .drop-title {
+    color: #151515;
+}
+
+
+.drop-container label {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+#dropcontainer > label > span:not(:first-of-type) {
+    font-size: 2rem;
+}
+
+#filelist {
+    position: absolute;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+    min-width: 70%;
+    color: #444;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+
+.drop-title {
+    color: #444;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+}
+
+input[type=file] {
+    width: 35rem;
+    max-width: 100%;
+    color: #444;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px;
+    background: inherit;
+    border-radius: 1rem;
+    border: 1px solid #555;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 2rem;
+    border: none;
+    background: #C0C0C0;
+    padding: 1rem 2rem;
+    border-radius: .7rem;
+    color: #151515;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'gantariregular';
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #d56969; /* 65c5c5 */
+}
+
+.drop-container.drag-active {
+    background: #d56969;
+    border-color: #eee;
+}
+  
+.drop-container.drag-active .drop-title {
+    color: #222;
+}
+
+.drop-title {
+    min-width: 70%;
+}
+
+
+
+#filelist li {
+    margin: 1rem;
+}
+
+#filelist li :nth-child(1) {
+    flex: 5;
+    text-align: left;
+}
+
+#filelist li :nth-child(2) {
+    align-content: center;
+}
+
+#filelist li div:nth-child(2) p {
+    background-color: #444;
+    color: #eee;
+    text-align: center;
+    width: 3rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.3rem;
+}
+
+#filelist li div:nth-child(2) p:hover {
+    background-color: #d56969;
+}
+
+label#seriecontainer, 
+label#genrecontainer {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    min-height: 3rem;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    border: 2px dashed #444;
+    padding: .5rem;
+}
+
+label#seriecontainer span, 
+label#genrecontainer span {
+    line-height: 3rem;
+    text-align: center;
+}
+
+label#seriecontainer input,
+label#genrecontainer select  {
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 0.4rem;
+}

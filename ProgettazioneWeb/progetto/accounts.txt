@@ -1,0 +1,14 @@
+# account già presenti nel db
+
+mail:   davide.bianchi@example.com
+psw:    davide-Bianchi00
+
+mail:   mario.verdi@example.com
+pws:    mv0?ABCD
+
+mail:   michele.S@example.com
+psw:    mkS-0S
+
+# account di esempio non presente nel db
+mail:   marcopio.rossi00@example.com
+psw:    qiwuh-72992yGHYU

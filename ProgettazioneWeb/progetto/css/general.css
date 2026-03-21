@@ -1,0 +1,263 @@
+html {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 10px;
+}
+body {
+    position: relative;
+    background-color: #151515;
+    color: white;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+    min-height: 50rem;
+}
+
+#site-name {
+    font-size: 4rem;
+    line-height: .8;
+    font-family: 'gloockregular', serif;
+    letter-spacing: 0.3rem;
+}
+
+header.general-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+
+    background-color: inherit;
+
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'gantariregular';
+    height: 10rem;
+}
+
+header.general-header * {
+    flex: 1;
+}
+
+header.general-header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Utile se voglio aumentare il numero di pagine da poter navigare */
+    text-align: center;
+}
+
+header.general-header a {
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+header.general-header a:link {
+    color: white;
+}
+
+header.general-header a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+
+header.general-header nav a { 
+    padding: .5rem;
+}
+
+header.general-header #signup,
+header.general-header #profile {
+    font-size: 2rem;
+    text-align: right;
+}
+
+header.general-header a#site-name:hover {
+    font-weight: unset;
+}
+
+header.general-header a.not-hover-class{
+    color: #606060;
+}
+
+
+main {
+    margin-top: 10rem;
+    box-sizing: border-box;
+}
+
+input {
+    border: none;         /* Remove all borders */
+    outline: none;        /* Remove focus outline */
+    box-shadow: none;     /* Remove any box shadow */
+    appearance: none;     /* General rule for modern browsers */
+    color: white;
+    background-color: #303030;
+}
+
+/*
+    signup Style Rules 
+*/
+
+.signup-container{
+    z-index: -1;
+    position: fixed;
+    
+    background-color: #1515159f;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.42, 0, 0.28, 0.92);
+}
+.signup-container .signup-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 65%;
+    min-height: 500px;
+    box-sizing: border-box;
+    background-color: black; /*#da4d4d*/
+    overflow: auto;
+}
+
+.signup-container.up{
+    z-index: 2;
+}
+.signup-container.focused{
+    opacity: 1;
+}
+
+
+.signup-container .signup-menu form {
+    margin-top: 3rem;
+    width: 50%;
+}
+
+.signup-container .signup-menu form button{
+    
+    background-color: #ddd;
+    margin: 2rem;
+    border-radius: .8rem;
+    color: #151515;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 3px solid black;
+    font-weight: bold;
+}
+
+
+.signup-container .signup-menu form button:hover {
+    background-color: #fff;
+    border: 3px solid #d56969;
+}
+.signup-container .signup-menu form button:active {
+    background-color: #333;
+    color: white;
+}
+
+
+.signup-container .signup-menu form div:first-child {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    border: 3px solid rgba(255, 255, 255, 0.404);
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 1rem;
+}
+
+.signup-container .signup-menu form label {
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 1rem;
+    line-height: 3;
+}
+
+.signup-container .signup-menu form input{
+    background-color: #ddd;
+    margin: 1rem;
+    border-radius: .5rem;
+    color: #151515;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.signup-container .signup-menu form input::placeholder {
+    color: #000;
+}
+
+.signup-container .signup-menu form *:invalid {
+    background-color: #d56969;
+}
+
+.signup-container .signup-menu form div:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-container .signup-menu form div:nth-of-type(2) * {
+    flex: 1;
+}
+
+/*
+  Login section
+*/
+
+
+.signup-container .signup-menu > div {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 1rem; 
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.signup-container .signup-menu > div p{
+    margin: 1rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.signup-container .signup-menu > div p#login-button{
+    color: #da4d4d;
+    font-family: 'gloockregular', serif;
+    padding: 1rem;
+}
+
+.signup-container .signup-menu > div p#login-button:hover{
+    background-color: #da4d4d;
+    border-radius: .5rem;
+    padding: 1rem;
+    color: #151515;
+}
+
+[class$='footer'] div {
+    text-align: center;
+    font-size: xx-large;
+    margin: 2rem;
+    font-family: 'gloockregular', serif;
+}
+
+footer {
+    letter-spacing: .4rem;
+    word-spacing: .3rem;
+}

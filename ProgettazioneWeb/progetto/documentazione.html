@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Documentazione progetto</title>
+        <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/fonts/Gloock/stylesheet.css">
+        <link rel="stylesheet" href="./assets/fonts/Gantari/stylesheet.css">
+        <link rel="stylesheet" href="./css/general.css" />
+        <style>
+            h1 {
+                font-size: 6rem;
+            }
+            h3 {
+                font-size: 3rem;
+                font-weight: 500;
+            }
+            p, li{
+                font-size: 2rem;
+                line-height: 1.5;
+                word-spacing: .2rem;
+            }
+            a:link {
+                color: white;
+            }
+            a:visited {
+                color: #d56969;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="general-header">
+            <a id="site-name" href="./index.php">noisExpression</a>
+            <nav>
+                <a href="./html/discover.php">Discover</a>
+            </nav>
+        </header>
+        </header>
+        <main>
+            <header>
+                <h1>Documentazione di progetto</h1>
+                <p>
+                    Questa applicazione web consente agli artisti di pubblicare le proprie opere digitali e mette a disposizione una bacheca per mostrarle ai visitatori del sito.
+                </p>
+            </header>
+            <section>
+                <h3>
+                    <a href="./index.php">Home.php</a>
+                </h3>
+                <p>
+                    Questa pagina visualizza, ogni sei secondi, un'immagine pubblicata sul sito web. Inoltre nella barra di navigazione in alto &egrave; presente un riferimento alla pagina discover.
+                </p>
+                <h3>
+                    <a href="./html/discover.php">Discover.php</a>
+                </h3>
+                <p>
+                    Nella pagina Discover &egrave; possibile visionare le opere pubblicate per genere artistico. Esse sono suddivise logicamente in due gruppi, le opere singole e le opere in serie.
+                    <br>
+                    Per poter visionare le opere &egrave; possibile cliccare sulla 'carta' che le rappresenta in modo da far comparire un popup in cui viene mostrata l'immagine, se la carta rappresenta una singola opera non &egrave; possibile fare altro se non chiudere la finestra, se invece la carta rappresenta una serie di opere, oltre a visionare l'immagine &egrave; possibile vederne il titolo (che si trova sotto) e navigare avanti e dietro, cliccando le apposite frecce a destra e sinistra del titolo in modo da poter visualizzare le restanti opere della serie.
+                    <br>
+                    Le 'carte' che rappresentano le opere sono raggruppate per genere artistico, selezionabile dal men&ugrave; di navigazione che si trova a met&agrave; pagina. 
+                    <br>
+                    Queste carte mostrano il titolo dell'opera che rappresentano (la prima nel caso di una serie) la data di pubblicazione, il nome dell'artista a cui appartiene e il nome della serie. Inoltre &egrave; possibile cercare (all'interno del genere artitico selezionato) il titolo dell'opera di proprio interesse.
+                </p>
+
+                <h3>Sign up/Login</h3>
+                <p>
+                    Nelle pagine home.php e discover.php, in alto a destra nella barra di navigazione &egrave; presente un elemento che pu&ograve; assumere i seguenti valori:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Sign up:</strong> se l'accesso al sito non &egrave; stato ancora fatto.
+                    </li>
+                    <li>
+                        <strong>Profile: </strong> se l'accesso al sito &egrave; stato fatto.
+                    </li>
+                </ul>
+                <p>
+                    Nel primo caso, cliccando il tasto Sign up, si avvia la procedura di registrazione. Apparir&agrave; un men&ugrave; a comparsa in cui inserire le proprie credenziali per iscriversi. 
+                    Per chi invece ha gi&agrave; un account, sotto il men&ugrave; di Sign up &egrave; disponibile un tasto di Login che una volta cliccato far&agrave; comparire al posto del men&ugrave; di Sign up quello per il Login, in modo da poter inserire la propria mail e password per poter accedere.
+                </p>
+
+                <h3>Profilo.php</h3>
+                <p>
+                    Se invece ci troviamo nel secondo caso, ovvero con l'accesso al sito gi&agrave; effettuato, al posto del tasto di Sign ci sarà un elemento contenente il riferimento al profilo.
+                    <br>
+                    Nella pagina di profilo sono presenti le informazioni dell'utente come: username, nome, cognome ed un campo 'nome artista' inizialmente vuoto ma compilabile. 
+                    <br>
+                    Per poter caricare le immagini l'utente dovr&agrave; prima di tutto scegliere un nome artistico unico e valido, e solo in seguito procedere al caricamento.
+                    Una volta caricate le immagini, compariranno due campi con cui l'utente potr&agrave; scegliere il nome della serie (modificabile solo se si &egrave; caricato pi&ugrave; di un'immagine) e il genere artistico a cui l'opera appartiene. 
+                    Se tutti i dati e file inseriti sono validi, l'utente potr&agrave; eseguire caricare le immagini. 
+                </p>
+            </section>
+        </main>
+        <footer class="footer">
+            <div>
+                Copyright &copy; 2025. Made by Michele S.
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,220 @@
+a[href^="discover"]  {
+    border-bottom: 2px solid white;
+}
+
+[class^="discover"] {
+    padding: 0 10rem;
+}
+
+section {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+section.head {
+    padding: 10rem 0;
+}
+
+section.head > h1 {
+    font-size: 10rem;
+    margin: 0;
+}
+
+section.head > p {
+    font-size: 2rem;
+}
+
+.filter {
+    border-bottom: 3px solid white;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    min-height: 40rem;
+    margin-top: 2rem;
+}
+
+.card-container .card {
+    min-height: 60rem;
+    border: none;
+    padding: 1.3rem;
+    background-color: #303030;
+    border-radius: 1.5rem;
+}
+
+.card-container .img-box {
+    max-width: 60rem;
+    height: 50rem;
+    
+    /*
+    border: 1px solid white; 
+    */
+    box-sizing: border-box;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.card-container .img-box img {
+    border: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.29, 0.13, 0.25, 1.08);
+}
+
+.card-container .img-box img:hover {
+    transform: scale(1.1);
+}
+
+.card-container .card .card-title, .card-container .card .artist {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'gantariregular';
+}
+
+
+.card-container .card .card-release-date {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card-container .card .card-tipe {
+    font-size: 2rem;
+    color: rgb(173, 173, 173);
+    margin: 5rem 0 .5rem 0;
+}
+
+.card-container .card .card-desciption {
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.49, 0.15, 0.43, 1.07);
+    margin: 1rem;
+}
+
+.card-container .card:hover .card-desciption{
+    opacity: 1;
+}
+
+.filter {
+    font-family: 'gantariregular';
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter .search {
+    flex: 1;
+}
+
+.filter .search input {
+    border: 1px rgb(189, 189, 189) solid;
+    font-size: 2rem;
+    text-align: left;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.filter .search input::placeholder {
+    color:rgb(189, 189, 189);
+    text-align: center;
+}
+
+.filter .genre {
+    font-size: 2rem;
+    flex: 5;
+    overflow: auto;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.filter .genre * {
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+}
+
+.filter .genre p.not-hover-class {
+    color: #606060;
+}
+
+.filter .genre p.selected {
+    border-bottom: 2px solid white;
+}
+
+.popup {
+    position: fixed;
+    z-index: 3;
+    background-color: #151515e0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent any potential overflow */
+    flex-direction: column;
+    font-family: 'gantariregular';
+}
+
+.popup div.img-container {
+    max-width: 90%;
+    max-height: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the image fits within bounds without distortion */
+}
+
+.popup #exit {
+    position: absolute;
+    background-color: #eee;
+    color: black;
+    font-weight: bolder;
+    
+    top: 4.5rem;
+    right: 3rem;
+    font-size: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.popup #exit:hover {
+    background-color: #d56969;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.popup #control {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    width: 85%;
+    text-align: center;
+}
+
+.popup #control * {
+    margin: 1rem;
+    font-size: 3rem;
+}
+
+.popup #control .arrow {
+    font-size: 4rem;
+}
+
+.popup #control .arrow-container {
+    width: auto;
+}
+
