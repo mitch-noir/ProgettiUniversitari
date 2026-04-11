@@ -1,6 +1,6 @@
 # 🖼️noisExpression - Art Gallery Platform
 
-**noisExpression** è un'applicazione web full-stack progettata per permettere agli artisti di pubblicare le proprie opere digitali e offrirne la visione ai visitatori attraverso una bacheca interattiva.
+**noisExpression** è un'applicazione web full-stack (LAMP) progettata per permettere agli artisti di pubblicare le proprie opere digitali e offrirne la visione ai visitatori attraverso una bacheca interattiva.
 
 ## 📄 Documentazione di Progetto
 
