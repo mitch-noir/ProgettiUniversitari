@@ -4,14 +4,14 @@
 
 ## 📄 Documentazione di Progetto
 
-### [Home.php](https://www.google.com/search?q=./index.php)
+### Home.php
 
 Questa pagina funge da landing page e vetrina dinamica.
 
 * **Slideshow:** Visualizza un'immagine pubblicata sul sito ogni 6 secondi, ruotando casualmente tra i contenuti della piattaforma.
 * **Navigazione:** Fornisce l'accesso rapido alla sezione  *Discover* .
 
-### [Discover.php](https://www.google.com/search?q=./html/discover.php)
+### Discover.php
 
 La sezione principale per l'esplorazione delle opere, suddivise per genere artistico e tipologia (opere singole o in serie).
 
@@ -30,7 +30,7 @@ La barra di navigazione gestisce dinamicamente l'accesso dell'utente:
 * **Login:** Dallo stesso menu è possibile passare alla schermata di accesso inserendo email e password.
 * **Profile:** Una volta effettuato l'accesso, il pulsante cambia per fornire il link diretto alla gestione del profilo.
 
-### [Profilo.php](https://www.google.com/search?q=./html/profilo.php)
+### Profilo.php
 
 Area riservata all'utente per la gestione della propria identità artistica e il caricamento dei contenuti.
 
