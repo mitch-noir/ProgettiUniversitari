@@ -4,7 +4,7 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
 
 ### 📁 Struttura della Repository
 
-* [**`BasiDiDati`** | *Progettazione Sistema SmartHome*](https://github.com/mitch-noir/ProgettiUniversitari/tree/main/BasiDiDati)
+* [**`BasiDiDati`**]https://github.com/mitch-noir/ProgettiUniversitari/tree/main/BasiDiDati) | *Progettazione Sistema SmartHome*(
 
   * Sviluppo dello schema concettuale (ER) e logico per la gestione di una casa intelligente.
   * Focus su: Integrità dei dati, gestione sensori e ottimizzazione delle query.
