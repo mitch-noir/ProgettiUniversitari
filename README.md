@@ -16,7 +16,7 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
   * **Tech Stack:** HTML5, CSS3, JavaScript (Vanilla), PHP, MySQL.
   * **Funzionalità:** Pubblicazione opere, gestione profili e persistenza dei dati.
   
-* [**`RetiInformatiche`**] | *Multiplayer Trivia Game*
+* [**`RetiInformatiche`**](https://github.com/mitch-noir/ProgettiUniversitari/tree/main/RetiInformatiche) | *Multiplayer Trivia Game*
 
   * **Architettura Client-Server** basata su socket per un gioco a quiz in tempo reale.
   * **Dettagli implementativi**
