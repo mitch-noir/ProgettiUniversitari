@@ -3,13 +3,13 @@
 Questa repository raccoglie i principali progetti accademici sviluppati durante il mio percorso di studi presso l' **Università di Pisa**. Ogni progetto riflette le competenze acquisite in ambiti diversi dell'informatica, dal design di basi di dati alla programmazione di rete.
 
 ### 📁 Struttura della Repository
-<!--
+
 * **`BasiDiDati`** | *Progettazione Sistema Smart Home*
 
   * Sviluppo dello schema concettuale (ER) e logico per la gestione di una casa intelligente.
   * Focus su: Integrità dei dati, gestione sensori e ottimizzazione delle query.
   * *In collaborazione con altri due colleghi.*
--->
+
 * **`ProgettazioneWeb`** | *Art Gallery Platform*
 
   * Applicazione web full-stack che funge da galleria digitale per artisti.
