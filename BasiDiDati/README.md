@@ -23,13 +23,8 @@ Il database gestisce diverse aree tematiche:
 
 ## Tecnologie Utilizzate
 * **DBMS:** Oracle MySQL.
-* **Linguaggio:** SQL (DDL, DML, MySQL Dialect).
-* **Documentazione:** LaTeX/PDF per le relazioni tecniche.
+* **Linguaggio:** MySQL.
+* **Documentazione:** Word/draw.io per la documentazione e il disegno degli schemi.
 
 ## Collaboratori
 Il progetto è stato realizzato in collaborazione con:
-
----
-
-### Nota per il Docente
-Il progetto risponde alle specifiche per gruppi da 3 studenti, includendo tutte le sezioni obbligatorie, comprese l'**Area Sicurezza** e le **Custom Analytics**.
