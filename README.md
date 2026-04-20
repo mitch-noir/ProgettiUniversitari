@@ -15,6 +15,7 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
   * Applicazione web full-stack che funge da galleria digitale per artisti.
   * **Tech Stack:** HTML5, CSS3, JavaScript (Vanilla), PHP, MySQL.
   * **Funzionalità:** Pubblicazione opere, gestione profili e persistenza dei dati.
+  
 * **`RetiInformatiche`** | *Multiplayer Trivia Game*
 
   * **Architettura Client-Server** basata su socket per un gioco a quiz in tempo reale.
