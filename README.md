@@ -4,19 +4,19 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
 
 ### 📁 Struttura della Repository
 
-* [**`BasiDiDati`**]https://github.com/mitch-noir/ProgettiUniversitari/tree/main/BasiDiDati) | *Progettazione Sistema SmartHome*(
+* [**`BasiDiDati`**](https://github.com/mitch-noir/ProgettiUniversitari/tree/main/BasiDiDati) | *Progettazione Sistema SmartHome*
 
   * Sviluppo dello schema concettuale (ER) e logico per la gestione di una casa intelligente.
   * Focus su: Integrità dei dati, gestione sensori e ottimizzazione delle query.
   * *In collaborazione con altri due colleghi.*
 
-* **`ProgettazioneWeb`** | *Art Gallery Platform*
+* [**`ProgettazioneWeb`**] | *Art Gallery Platform*
 
   * Applicazione web full-stack che funge da galleria digitale per artisti.
   * **Tech Stack:** HTML5, CSS3, JavaScript (Vanilla), PHP, MySQL.
   * **Funzionalità:** Pubblicazione opere, gestione profili e persistenza dei dati.
   
-* **`RetiInformatiche`** | *Multiplayer Trivia Game*
+* [**`RetiInformatiche`**] | *Multiplayer Trivia Game*
 
   * **Architettura Client-Server** basata su socket per un gioco a quiz in tempo reale.
   * **Dettagli implementativi**
