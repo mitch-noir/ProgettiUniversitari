@@ -28,3 +28,5 @@ Il database gestisce diverse aree tematiche:
 
 ## Collaboratori
 Il progetto è stato realizzato in collaborazione con:
+- @orli200
+- @userdiprova
