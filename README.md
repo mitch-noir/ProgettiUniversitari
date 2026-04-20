@@ -10,7 +10,7 @@ Questa repository raccoglie i principali progetti accademici sviluppati durante 
   * Focus su: Integrità dei dati, gestione sensori e ottimizzazione delle query.
   * *In collaborazione con altri due colleghi.*
 
-* [**`ProgettazioneWeb`**] | *Art Gallery Platform*
+* [**`ProgettazioneWeb`**](https://github.com/mitch-noir/ProgettiUniversitari/tree/main/ProgettazioneWeb) | *Art Gallery Platform*
 
   * Applicazione web full-stack che funge da galleria digitale per artisti.
   * **Tech Stack:** HTML5, CSS3, JavaScript (Vanilla), PHP, MySQL.
